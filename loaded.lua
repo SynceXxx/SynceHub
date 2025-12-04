@@ -1,10 +1,10 @@
 -- SynceScriptHub | Main Loader v1.1
 -- Usage: loadstring(game:HttpGet('https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/loaded.lua'))()
--- Updated: Matching notification style with scripts.lua
+-- Updated: Matching notification style with script.lua
 
 print("🚀 SynceScriptHub Loader Starting...")
 
--- Hub-Style Notification Function (EXACT match with scripts.lua)
+-- Hub-Style Notification Function (EXACT match with script.lua)
 local function showNotif(title, msg, duration)
     local TweenService = game:GetService("TweenService")
     local Players = game:GetService("Players")
@@ -119,7 +119,7 @@ end
 
 -- URLs
 local LOADING_SCREEN_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/loadsding.lua"
-local MAIN_HUB_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/scripts.lua"
+local MAIN_HUB_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/script.lua"
 
 -- Function to safely load scripts
 local function safeLoad(url, name)
@@ -171,7 +171,7 @@ task.wait(0.5)
 
 -- Load Main Hub
 print("📥 Loading Main Hub...")
-local mainHubCode = safeLoad(MAIN_HUB_URL, "Main Hub (scripts.lua)")
+local mainHubCode = safeLoad(MAIN_HUB_URL, "Main Hub (script.lua)")
 
 if not mainHubCode then
     showNotif("❌ Load Failed", "Failed to load Main Hub", 5)
@@ -188,7 +188,7 @@ local hubSuccess, hubError = pcall(function()
 end)
 
 if hubSuccess then
-    print("✅ SynceScriptHub v1.8 Successfully Loaded!")
+    print("✅ SynceScriptHub v2.1 Successfully Loaded!")
     print("🎮 Youtuber Empire Hub is ready!")
     -- Note: Hub will show its own "Loaded" notification
 else
