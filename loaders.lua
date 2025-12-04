@@ -119,7 +119,7 @@ end
 
 -- URLs
 local LOADING_SCREEN_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/loads.lua"
-local MAIN_HUB_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/ming.lua"
+local MAIN_HUB_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/mings.lua"
 
 -- Function to safely load scripts
 local function safeLoad(url, name)
