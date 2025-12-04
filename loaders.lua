@@ -1,5 +1,5 @@
 -- SynceScriptHub | Main Loader v1.1
--- Usage: loadstring(game:HttpGet('https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/loader.lua'))()
+-- Usage: loadstring(game:HttpGet('https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/loaders.lua'))()
 -- Updated: Matching notification style with ming.lua
 
 print("🚀 SynceScriptHub Loader Starting...")
