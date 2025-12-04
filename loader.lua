@@ -118,7 +118,7 @@ if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("SynceHub") t
 end
 
 -- URLs
-local LOADING_SCREEN_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/load.lua"
+local LOADING_SCREEN_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/loads.lua"
 local MAIN_HUB_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/ming.lua"
 
 -- Function to safely load scripts
