@@ -114,7 +114,7 @@ end
 -- URLs
 local THEME_SYSTEM_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/themes.lua"
 local LOADING_SCREEN_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/loadsgalaksi.lua"
-local MAIN_HUB_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/ngalaksi.lua"
+local MAIN_HUB_URL = "https://raw.githubusercontent.com/SynceXxx/SynceHub/refs/heads/main/ngalaxy.lua"
 
 -- Function to safely load scripts
 local function safeLoad(url, name)
@@ -191,7 +191,7 @@ task.wait(0.5)
 
 -- Load Main Hub
 print("📥 Loading Main Hub...")
-local mainHubCode = safeLoad(MAIN_HUB_URL, "Main Hub (ngalaksi.lua)")
+local mainHubCode = safeLoad(MAIN_HUB_URL, "Main Hub (ngalaxy.lua)")
 
 if not mainHubCode then
     showNotif("❌ Load Failed", "Failed to load Main Hub", 5)
