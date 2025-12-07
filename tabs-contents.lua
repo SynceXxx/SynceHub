@@ -355,3 +355,9 @@ function TabContents:Initialize(UI)
     print("✅ Tab Contents Loaded!")
     print("📦 Total Tabs: 6 (Player, Visual, Mount, Themes, Info, Settings)")
 end
+
+-- ═══════════════════════════════════════════════════════════════
+-- 📦 RETURN MODULE
+-- ═════════════════════════════════════════════════════════
+
+return TabContents
